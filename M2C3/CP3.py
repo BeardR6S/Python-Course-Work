@@ -15,7 +15,7 @@
 
 #--------------------------------------------------------------------------------------------
 
-# print(a[0:3])
+#print(a[0:3])
 
 #--------------------------------------
 
@@ -25,6 +25,7 @@
 
 # x = 11 
 # y = 10 
+
 
 # print(x + y)
 
@@ -42,7 +43,7 @@
 
 #-------------------------------------------------
 
-# a = "im so tired".upper()
+#a = "im so tired".upper()
 
 # print(a[0:2])
 
@@ -50,20 +51,20 @@
 
 # b_low = ' so tired'
 
-# print(a_cap + b_low)
+# #print(a_cap + b_low)
 
-#OR 
+# #OR 
 
-# b_low = ' so tired'.capitalize()
+# confused = b_low.upper()
 
-# print(a_cap + b_low)
+# print(a_cap + confused)
 
 #----------------------------------------------
 
 
 # name = 'John'
 
-# age = "21"
+# age = 21
 
 # task = f"{name} is {age} years old."
 
@@ -71,4 +72,4 @@
 
 #----------------------------------------------
 
-print( 'Hello World')
+# print('Hello World')
