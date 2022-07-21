@@ -23,3 +23,5 @@ print (dynamic_reducer([1, 2, 250], '+' ))
 print (dynamic_reducer([1, 2, 3], '-' )) 
 print (dynamic_reducer([1, 2, 55], '*' ))
 print (dynamic_reducer([100, 2, 3], '/' ))
+
+#When working with Reduce it expects a LAMBDA function, and first argument needs to be a total and second is the element you are iterating over.
