@@ -3,7 +3,7 @@
 
 #import random
 
-#print (random.randrange(1, 50))
+#print(random.randrange(1, 50))
 # #^random
 
 #mylist = ["a", "b", "c"]
