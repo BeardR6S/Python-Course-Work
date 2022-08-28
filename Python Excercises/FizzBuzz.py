@@ -73,23 +73,23 @@ Tools you can use
 #-------------------------------
 #Also Works in one line of code
 
-# for i in range(1, 101):
-#     print('Fizz'*(i%3<1)+(i%5<1)*'Buzz' or i)
+for i in range(1, 101):
+  print('Fizz'*(i%3<1)+(i%5<1)*'Buzz' or i)
 
 #-------------------------------
 
 #Project Requirments for class  
 
-def fizz_buzz(max_num):
-  for num in range(1, max_num + 1):
-    if num % 3 == 0 and num % 5 == 0:
-      print('FizzBuzz')
-    elif num % 5 == 0:
-      print('Buzz')
-    elif num % 3 == 0:
-      print('Fizz')
-    else:
-      print(num)
+# def fizz_buzz(max_num):
+#   for num in range(1, max_num + 1):
+#     if num % 3 == 0 and num % 5 == 0:
+#       print('FizzBuzz')
+#     elif num % 5 == 0:
+#       print('Buzz')
+#     elif num % 3 == 0:
+#       print('Fizz')
+#     else:
+#       print(num)
 
 
-fizz_buzz(100)
+# fizz_buzz(100)
